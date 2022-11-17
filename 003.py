@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
     if media < 5:
         print('aluno REPROVADO')
-    if 5 <= media < 7:
+    elif 5 <= media < 7:
         print('aluno em recuperação')
     if media > 7:
         print('aluno APROVADO')
