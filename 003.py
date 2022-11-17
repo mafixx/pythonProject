@@ -11,6 +11,8 @@ Se a média for maior do que 7, o sistema mostra uma mensagem de aluno APROVADO
 
 Na linha 27, também pode ser utilizada dessa forma: # elif media >= 5 and media < 7:
 
+E na linha 31 pode mudar o if para else: e pular para a próxima linha de descrição
+
 """
 
 if __name__ == "__main__":
