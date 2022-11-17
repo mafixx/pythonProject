@@ -9,6 +9,8 @@ Se a média for menor do que 5, o sistema mostra uma mensagem de aluno REPROVADO
 Se a média for maior ou igual a 5 e menor do que 7, o sistema mostra uma mensagem de aluno em recuperação
 Se a média for maior do que 7, o sistema mostra uma mensagem de aluno APROVADO
 
+Na linha 27, também pode ser utilizada dessa forma: # elif media >= 5 and media < 7:
+
 """
 
 if __name__ == "__main__":
