@@ -30,5 +30,16 @@ if __name__ == "__main__":
     # Para inserir itens na nossa lista, podemos utilizar os métodos:
 
     # append() -> Que insere um novo item ao final da lista.
+    lista3.append("Goiaba")
+    print(lista3)
 
+    # insert()  -> Insere um novo item na lista no índice especificado
+    # Insere "Pitanga" no índice 2 da lista
+    lista3.insert(2, "Pitanga")
+    print(lista3)
+
+    # extend()  -> Ele insere os itens de um outro iterável no final da lista
+    lista4 = ["Batata", "Tomate", "Alface", "Brócolis"]
+    lista3.extend(lista4)
+    print(lista3)
 
